@@ -1,0 +1,28 @@
+.footerWrapper {
+  margin: 0 auto;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  color: var(--grey-1);
+  padding: var(--spacing-unit-xxlarge) 0;
+  border-radius: 10px;
+}
+
+.footerContainer {
+  max-width: var(--container-width);
+  margin: 0 auto;
+}
+
+.self a {
+  text-decoration: none;
+  font-weight: var(--font-weight-text);
+  transition: text-decoration 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+    color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  color: var(--grey-1);
+}
+
+.self a:hover,
+.self a:focus {
+  text-decoration: underline;
+  color: #fff;
+}
