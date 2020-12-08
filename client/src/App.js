@@ -6,6 +6,7 @@ import {Howl} from 'howler'
 
 import Navigation from './Components/Navigation/Navigation'
 import Footer from './Components/Footer/Footer'
+import Chat from './Components/Chat/Chat'
 
 import  'rodal/lib/rodal.css'
 
@@ -291,7 +292,11 @@ function App() {
     );
   } else if (callAccepted && !isfullscreen){
     PartnerVideo = (
-      <video className="partnerVideo" playsInline ref={partnerVideo} autoPlay />
+      <>
+        <video className="partnerVideo" playsInline ref={partnerVideo} autoPlay />
+        <Chat/>
+      </>
+      
     );
   }
 
