@@ -35,14 +35,6 @@
   white-space: nowrap;
 }
 
-.headerLogoLink:hover {
-  background-color: var(--primary-color-hover);
-}
-
-.headerLogoLink:active {
-  background-color: var(--primary-color-active);
-}
-
 .headerLogo {
   line-height: 1.2;
   align-items: center;
