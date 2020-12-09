@@ -22,8 +22,7 @@ function Footer() {
                 </ul>
             </div>
             <div className="main__message_container">
-                <input 
-                    id="chat__message_container"
+                <input
                     type="text"
                     placeholder={`Enter message @${yourID}`}
                 />
