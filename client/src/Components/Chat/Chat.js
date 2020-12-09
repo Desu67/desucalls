@@ -2,9 +2,10 @@ import React, {useState, useEffect, useRef} from 'react'
 import './Chat.css'
 import io from "socket.io-client"
 
-function Footer() {
+function Chat() {
     const [yourID, setYourID] = useState("");
     const socket = useRef();
+    
 
     useEffect(() => {
         socket.current = io.connect("/");
@@ -16,19 +17,18 @@ function Footer() {
 
     return (
         <div className="chatWrapper">
-            <div className="main__chat_window">
-                <ul className="messages">
-
-                </ul>
+            <div className="chatContainer">
+                hello
             </div>
-            <div className="main__message_container">
-                <input
-                    type="text"
+            <div className="disclaimer">
+                <input 
+                    id="chat__message_container"
                     placeholder={`Enter message @${yourID}`}
                 />
             </div>
         </div>
     )
+
 }
 
-export default Footer
+export default Chat
