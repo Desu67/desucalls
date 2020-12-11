@@ -21,8 +21,7 @@ function Chat() {
                 hello
             </div>
             <div className="disclaimer">
-                <input 
-                    id="chat__message_container"
+                <input
                     placeholder={`Enter message @${yourID}`}
                 />
             </div>
