@@ -23,8 +23,6 @@ Anonymous video calls across the world for free with screensharing!
 
 - [x] Video Call
 - [x] Screen Sharing
-- [ ] Select camera
-- [ ] Select audio device
 
 ## 🚀 Getting started
 
